@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Pondok Bunga - POS System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar-left">
+            <div class="menu-icon"><i class="fa-solid fa-chef-hat"></i></div> <nav class="nav-icons">
+                <a href="#" class="active"><i class="fa-solid fa-house"></i></a>
+                <a href="#"><i class="fa-solid fa-border-all"></i></a>
+                <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                <a href="#"><i class="fa-solid fa-burger"></i></a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <div class="logo-area">
+                    <h2>Warung<br><span>Pondok Bunga</span></h2>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="search here">
+                </div>
+
+                <div class="header-actions">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </header>
+
+            <div class="categories">
+                <h3>navbar</h3> <div class="category-buttons">
+                    <button class="active">All</button>
+                    <button>Food</button>
+                    <button>drink</button>
+                    <button>Desert</button>
+                </div>
+            </div>
+
+            <div class="menu-grid">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/orange/white?text=Ikan');"></div>
+                    <div class="card-info">
+                        <h4>Mujair Bakar</h4>
+                        <span class="price">15k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/red/white?text=NasGor');"></div>
+                    <div class="card-info">
+                        <h4>Nasi goreng</h4>
+                        <span class="price">12k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/brown/white?text=Ayam');"></div>
+                    <div class="card-info">
+                        <h4>Ayam bakar</h4>
+                        <span class="price">15k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/green/white?text=Kangkung');"></div>
+                    <div class="card-info">
+                        <h4>Kangkung</h4>
+                        <span class="price">10k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/darkgrey/white?text=Lele');"></div>
+                    <div class="card-info">
+                        <h4>Lele goreng</h4>
+                        <span class="price">15k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/yellow/black?text=Gado');"></div>
+                    <div class="card-info">
+                        <h4>Gado-gado</h4>
+                        <span class="price">10k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/orange/white?text=Sop');"></div>
+                    <div class="card-info">
+                        <h4>Sayur sop</h4>
+                        <span class="price">10k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://placehold.co/200x150/red/white?text=Capjay');"></div>
+                    <div class="card-info">
+                        <h4>Capjay</h4>
+                        <span class="price">10k</span>
+                    </div>
+                    <div class="card-action"></div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="user-profile">
+                <div class="avatar"></div>
+                <div class="user-info">
+                    <h4>Kurkur Petok</h4>
+                    <span>kurkur</span>
+                </div>
+                <div class="user-actions">
+                    <div class="circle-small"></div>
+                    <div class="circle-small"></div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div class="order-details">
+                <h3>Order Details</h3>
+                
+                <div class="order-list">
+                    <div class="order-item">
+                        <div class="item-img-circle"></div>
+                        <div class="item-text">
+                            <h4>Kurkur Petok</h4> <span class="item-price">$20.00</span>
+                            <a href="#" class="remove">Remove</a>
+                        </div>
+                        <div class="item-qty">
+                            <span>1</span>
+                            <div class="toggle"></div>
+                        </div>
+                    </div>
+
+                    <div class="order-item">
+                        <div class="item-img-circle"></div>
+                        <div class="item-text">
+                            <h4>Kurkur Petok</h4>
+                            <span class="item-price">$20.00</span>
+                            <a href="#" class="remove">Remove</a>
+                        </div>
+                        <div class="item-qty">
+                            <span>1</span>
+                            <div class="toggle"></div>
+                        </div>
+                    </div>
+
+                    <div class="order-item">
+                        <div class="item-img-circle"></div>
+                        <div class="item-text">
+                            <h4>Kurkur Petok</h4>
+                            <span class="item-price">$20.00</span>
+                            <a href="#" class="remove">Remove</a>
+                        </div>
+                        <div class="item-qty">
+                            <span>1</span>
+                            <div class="toggle"></div>
+                        </div>
+                    </div>
+
+                     <div class="order-item">
+                        <div class="item-img-circle"></div>
+                        <div class="item-text">
+                            <h4>Kurkur Petok</h4>
+                            <span class="item-price">$20.00</span>
+                            <a href="#" class="remove">Remove</a>
+                        </div>
+                        <div class="item-qty">
+                            <span>1</span>
+                            <div class="toggle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-footer">
+                <div class="recipient-box">
+                    <label>Recipent</label>
+                    <input type="text" placeholder="Enter name">
+                </div>
+                <div class="customer-id">
+                    <span>Customer ID</span>
+                    <span class="id-num">#00000001</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
